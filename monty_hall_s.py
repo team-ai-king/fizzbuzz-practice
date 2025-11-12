@@ -6,8 +6,8 @@ stay = 0 # stay 전략에서 이긴 횟수
 switch = 0 # switch 전략에서 이긴 횟수
 
 for i in range(1000):
-	
-	pass # 오류방지를 위한 임시 pass 코드작성
+	lst = [1,0,0]           # one car and two goats
+    random.shuffle(lst)     # shuffles the list randomly
 
 
 

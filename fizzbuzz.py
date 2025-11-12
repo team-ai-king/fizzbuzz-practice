@@ -1,9 +1,5 @@
-for n in range(1, 15+1):
-    if n % 15 == 0:
-        print('fizzbuzz')
-    elif n % 3 == 0:
-        print('fizz')
-    elif n % 5 == 0:
-        print('buzz')
+for n in range(10, 30+1):
+    if n % 3 == 0 or n % 5 == 0:
+        print('fizz' * (n % 3 == 0) + 'buzz' * (n % 5 == 0))
     else:
         print(n)

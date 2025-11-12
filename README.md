@@ -12,7 +12,7 @@ Fizzbuzz의 팀단위 연습을 위한 저장소입니다.
 6. branch를 생성하고 issue에 작성한 대로 작업을 실시합니다.
 7. 작업이 모두 끝나면 해당 branch에 push합니다.(`$ git push origin {branch name}`)
 8. github에 방문하여 pull request를 생성하고 코드리뷰를 실시합니다.
-9. can't automatically merge 가 발생했을 경우, 나의 브랜치들을 최신화 합니다. 이 과정에서 작업중인 브랜치에 충돌이 발생하며 이를 해결하여 다시 push 하면 해소 할 수 있습니다.
+9. can't automatically merge 가 발생했을 경우, 나의 브랜치들을 최신화 합니다. (`$ git fetch upstream main && git merge FETCH_HEAD`)이 과정에서 작업중인 브랜치에 충돌이 발생하며 이를 해결하여 다시 push 하면 해소 할 수 있습니다.
 10. merge된 pull request를 확인하고 다음 작업을 실시합니다.
 
 ## Prerequisites

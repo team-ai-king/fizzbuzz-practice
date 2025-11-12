@@ -7,7 +7,9 @@ switch = 0 # switch 전략에서 이긴 횟수
 
 for i in range(1000):
 	
-	pass # 오류방지를 위한 임시 pass 코드작성
+    ran = random.randrange(3) # gets a random number for the random guess
+    user = lst[ran] #storing the random guess
+    del(lst[ran]) # deleting the random guess
 
 
 
